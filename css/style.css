@@ -362,7 +362,27 @@ input[type=text], select, textarea {
 	background-color: #d70077;
   }
   
-  
+  .btn, .btn-primary {
+
+		background-color: #FF9EC3;
+		color: #000;
+		padding: 12px 20px;
+		border: 2px;
+		border-color: #d70077;
+		border-radius: 4px;
+		cursor: pointer;
+		margin: 0 auto;
+		display:block;
+
+  }
+
+  .btn:hover, .btn-primary:hover {
+
+	background-color: #d70077;
+
+  }
+
+
   /* SLIDES */
   
   .slides {
